@@ -1,0 +1,96 @@
+body, html {
+
+}
+
+.heading-wrapper{
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 0;
+}
+
+.heading-wrapper h3{
+  font-size: 24px;
+  font-family: 'Kiwi Maru',serif;
+  font-weight: 450;
+  letter-spacing: 5px;
+  color:#80b7b2;
+  line-height:50px;
+}
+
+.heading-wrapper h2{
+  font-size: 35px;
+  font-family: 'Kiwi Maru',serif;
+  font-weight: 600;
+  letter-spacing: 3px;
+  color :white;
+  }
+
+input[type=text], select {
+  width: 100%;
+  border-radius: 5px;
+  margin: 7pc 0;
+  border: 1px solid #ccc;
+  padding: 14px 18px;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+input[type=submit]:hover {
+  background-color: #00a7d1;
+}
+
+textarea, select {
+ width: 100%;
+ border-radius: 5px;
+ margin: 7px 0;
+ border: 1px solid #ccc;
+ padding: 14px 18px;
+ display: inline-block;
+ box-sizing: border-box;
+}
+
+input[type=submit] {
+ width: 25%;
+ border: none;
+ color: white;
+ padding: 14px 20px;
+ background-color: #01c9fb;
+ margin: 8px 0;
+ cursor: pointer;
+ border-radius: 4px;
+}
+
+input[disabled]:hover {
+  background-color: grey;
+}
+
+input[disabled]{
+  width: 25%;
+  border: none;
+  color: white;
+  padding: 14px 20px;
+  background-color: grey;
+  margin: 8px 0;
+  cursor: pointer;
+  border-radius: 4px;
+}
+#name {
+  width: 10%;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding: 14px 18px;
+  display: inline-block;
+  box-sizing: border-box;
+  text-align: center;
+}
+#review {
+  width: 90%;
+  border-radius: 5px;
+  margin-bottom: 50px;
+  border: 1px solid #ccc;
+  padding: 14px 18px;
+  display: inline-block;
+  box-sizing: border-box;
+}

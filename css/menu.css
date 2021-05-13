@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+SC:ital@1&display=swap');
+
+body{
+    font-family: 'Alegreya Sans' sans-serif;
+    overflow-x: hidden;
+    
+}
+.nav{
+    height: 100%;
+    width: 0%;
+    position: fixed;
+    z-index: 998;
+    top: 0;
+    left: 0;
+    background-color:rgba(33, 33, 33, 0.9);
+    opacity: 2;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    padding-top: 150px;
+    transition: .7s;
+}
+.nav a{
+    position:relative;
+    display: block;
+    padding: 20px ;
+    font-size: 25px;
+    text-align:center;
+    letter-spacing: 2px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: whitesmoke;
+    
+    
+}
+.nav a.active, a:hover{
+    color:#80b7b2;
+    transition: .7s;
+}
+
+
+.nav.closes{
+    position: absolute;
+    top:0;
+    right:20px;
+    margin-left:50px ;
+    font-size: 30px;
+}
+.slide a{
+    color:#80b7b2;
+    font-size:36px ;
+}
+#content{
+    position:fixed;
+    z-index: 999;
+    padding: 30px;
+    transition: margin-left .7s;
+    overflow: visible;
+    width:100%;
+}
+    
+   
+    
+    
+    
+    
+    
+    
+   
+    
+    
+    
+    
+    
+    
