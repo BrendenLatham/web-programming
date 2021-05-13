@@ -2,16 +2,16 @@
 <!--this script configurates our php to send to our comment database-->
 <?php
 //Define host here.
-$hostname = "localhost";
+$hostname = "";
 
 //Define database username here.
-$username = "bdsjgrku_comments";
+$username = "";
 
 //Define database password here.
-$password = "comments@map";
+$password = "";
 
 //Define database name here.
-$dbname = "bdsjgrku_comment_table";
+$dbname = "";
 
   //this connects our php to our sql database
   //the @ before "mysql_connect()" is to eliminate the error message because I am using php 5.4
